@@ -60,3 +60,11 @@ frontend/
 │   
 └── tailwind.config.js
 ```
+
+### How to run
+- Backend
+```
+cd notes-app
+pip install -r requirements.txt
+uvicorn main:app --reload
+```
