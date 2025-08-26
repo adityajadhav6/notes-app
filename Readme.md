@@ -31,6 +31,7 @@ A full-stack Notes application with user authentication. Users can register, log
 ## Project Structure
 
 ### Backend
+```
 backend/
 ├── main.py                  # FastAPI app entrypoint
 ├── database.py              # SQLAlchemy engine, session, Base
@@ -39,8 +40,9 @@ backend/
 ├── schemas.py               # Pydantic schemas for requests/responses
 ├── requirements.txt         # Python dependencies
 └── notes.db                 # SQLite database (if used)
-
+```
 ### Frontend
+```
 frontend/
 ├── package.json
 ├── vite.config.js
@@ -57,3 +59,4 @@ frontend/
 │      └── NotesList.jsx
 │   
 └── tailwind.config.js
+```
